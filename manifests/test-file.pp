@@ -2,7 +2,7 @@ file { '/home/vagrant/PUPPET-WORKS!':
 
 	ensure => file,
 	content => "PUPPET-WORKS!",
-	user => "vagrant",
+	owner => "vagrant",
 	group => "vagrant",
 
 }
